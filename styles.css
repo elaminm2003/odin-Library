@@ -1,0 +1,155 @@
+html, body {
+    margin: 0px;
+    background-color: rgb(191, 229, 253);
+    max-width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 100%;
+    margin: 0px;
+}
+
+h1 {
+    padding: 0px;
+
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(191, 229, 253);
+}
+
+.button-container{
+    text-align: center;
+}
+
+.add-book{
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.add-book:hover{
+    background: rgb(77, 184, 250);
+    padding: 10px;
+}
+
+.card-container{
+    align-items: left;
+    text-align: center;
+    display: flex;
+    max-width: 100em;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    max-width: 20vw;
+    min-width: 30vh;
+    max-height: 25vh;
+    height: 40vh;
+    padding: auto;
+    border-radius: 8px;
+    font-size: large;
+    overflow: scroll;
+}
+
+.flex-child {
+    flex: 1 0 30%;
+    flex-wrap: wrap;
+}
+
+.flex-child:last-child {
+    align-items: left;
+} 
+
+.read-btn {
+    font-size: large;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.read {
+    background-color: greenyellow;
+}
+
+.not-read {
+    background-color: red;
+}
+
+#not-read{
+    cursor: pointer;
+}
+
+#read{
+    cursor: pointer;
+}
+
+#form {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    max-width: 20vw;
+    min-width: 30vh;
+    max-height: 25vh;
+    height: 40vh;
+    padding: auto;
+    border-radius: 8px;
+    font-size: large;
+    overflow: scroll;
+    margin: auto;
+}
+
+#title::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pages::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#author::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    padding: 3px;
+    margin: 3px;
+    margin-top: 8px;
+    font-size: medium;
+}
+
+#form-submit{
+    cursor: pointer;
+    margin: 2px;
+}
+
+.remove-button{
+    font-size: larger;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: small;
+}
+
